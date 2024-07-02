@@ -9,6 +9,7 @@ export default function Posts(): React.JSX.Element{
             <Typography variant='h6' sx={{textAlign: "center", mt: 2}}>Posts</Typography>
             <Divider/>
             <ListPosts/>
+            <FormCreate/>
         </>
     )
 }
